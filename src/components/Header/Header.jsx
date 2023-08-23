@@ -21,7 +21,6 @@ function Header() {
             <div><button className='text-sm font-bold leading-normal text-[#fff] border-2 border-[#22A75D] rounded-[52px] w-[147px] h-12'>Sign Up</button></div>
         </div>
     </div>
-    {/* <div className='bgBlur'></div> */}
     
     </>
   )
