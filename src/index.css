@@ -69,4 +69,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .bgpresaleiphone{
+        background-image: url("./assests/images/iphonebgpresale.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
 }
