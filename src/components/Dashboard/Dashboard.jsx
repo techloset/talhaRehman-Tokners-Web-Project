@@ -1,35 +1,21 @@
 import React from 'react'
-import bgblur from '../../assests/images/bgblur.svg'
 import dashboard from '../../assests/images/headerBg.svg'
 import creators from '../../assests/images/Frame.svg'
 import creatorArrow from '../../assests/images/arrow-right-ic.svg'
 import holderframe from '../../assests/images/holderFrame.svg'
 import blurarrow from '../../assests/images/bluearrow-right-ic.svg'
 import colorfull from '../../assests/images/colorfull.svg'
-import h1 from '../../assests/images/H1.svg'
-import h2 from '../../assests/images/h2.svg'
-import h3 from '../../assests/images/h3.svg'
-import h4 from '../../assests/images/h4.svg'
+import historygreen from '../../assests/images/historygreen.svg'
+import historyblue from '../../assests/images/historyblue.svg'
+import historyyellow from '../../assests/images/historyyellow.svg'
+import historyred from '../../assests/images/historyred.svg'
 import logoicom from '../../assests/images/iconlogo.svg'
 import womenHolding from '../../assests/images/womanHolding.svg'
 import doubleQuotes from '../../assests/images/“.svg'
-import one from '../../assests/images/01.svg'
-import two from '../../assests/images/02.svg'
-import three from '../../assests/images/03.svg'
-import cr from '../../assests/images/cr.svg'
-import cr1 from '../../assests/images/cr1.svg'
 import iphonecolor from '../../assests/images/iphonecolor.svg'
 import iphonecoming from '../../assests/images/iphonecomimg.svg'
-import  { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-// import required modules
-import { Pagination } from 'swiper/modules';
+import PreSale from '../PreSale/PreSale'
+import HowToBuy from '../HowToBuy/HowToBuy'
 
 
 function Dashboard() {
@@ -37,11 +23,11 @@ function Dashboard() {
   return (
     <>
     <div className='bgBlur overflow-hidden xl:block sm:hidden xs:hidden'></div>
-      <div className='grid grid-cols-12  2xl:ml-[173px] lg:ml-20 xl:ml-20 sm:ml-14 xs:mx-5 overflow-x-hidden'>
-        <div className='2xl:mt-[230px] xl:mt-[150px] lg:mt-[80px] sm:mt-[50px] xs:mt-[56px] 2xl:col-span-4 xl:col-span-6 lg:col-span-7 sm:col-span-12 xs:col-span-12'>
+      <div className='grid grid-cols-12  2xl:ml-[10.813rem] lg:ml-20 xl:ml-20 sm:ml-14 xs:mx-5 overflow-x-hidden'>
+        <div className='2xl:mt-[14.375rem] xl:mt-[9.375rem] lg:mt-20 sm:mt-[3.125rem] xs:mt-14 2xl:col-span-4 xl:col-span-6 lg:col-span-7 sm:col-span-12 xs:col-span-12'>
           <h4 className='text-white xs:ml-1 xs:text-sm'>At Tokners we are</h4>
-          <h2 className='text-5xl font-bold leading-[54px] tracking-[-0.06rem] text-[#fff] 2xl:w-[97%] xl:w-[90%] mt-[10px] xs:text-4xl xs:leading-[40px]'>Reimagining social media through the power of the blockchain.</h2>
-          <p className='mt-[30px] text-base font-normal leading-6 text-[#DDE2FF] opacity-60 w-[88%] font-[tokner] xs:mt-5 xs:text-sm xs:w-[97%] '>We are creating social media 3.0 with influencers, celebrities and creators being able to launch their own digital currency by simply creating a profile with media content posted as Non fungible Tokens that can be owned and traded on the Tknrs network</p>
+          <h2 className='text-5xl font-bold leading-[54px] tracking-[-0.06rem] text-[#fff] 2xl:w-[97%] xl:w-[90%] mt-[0.625rem] xs:text-4xl xs:leading-[40px]'>Reimagining social media through the power of the blockchain.</h2>
+          <p className='mt-[1.875rem] text-base font-normal leading-6 text-[#DDE2FF] opacity-60 w-[88%] font-[tokner] xs:mt-5 xs:text-sm xs:w-[97%] '>We are creating social media 3.0 with influencers, celebrities and creators being able to launch their own digital currency by simply creating a profile with media content posted as Non fungible Tokens that can be owned and traded on the Tknrs network</p>
           <button className='text-sm font-bold leading-normal text-[#fff] text-center bg-[#22A75D] rounded-[52px] w-[147px] h-[48px] mt-10 greenButtonShadow  xs:mt-[30px]'>Learn More</button>
         </div>
         <div className='2xl:col-span-8 xl:col-span-6 lg:col-span-5 sm:col-span-12 xs:col-span-12 xl:-ml-36 xl:-mt-20 xs:!min-w-[100vw]'>
@@ -52,7 +38,7 @@ function Dashboard() {
       {/* Section 2 Creators */}
       <div className='2xl:ml-[173px] flex sm:flex-wrap xs:flex-wrap xl:flex-nowrap 2xl:mt-0 sm:mt-20 xs:mx-5 2xl:justify-start sm:justify-center  '>
         <div className='bg-[#171B29] 2xl:w-[777px] xl:w-[45%] 2xl:h-[436px] xl:h-auto rounded-[25px] sm:w-[80%] 2xl:pb-0 lg:pb-10 sm:pb-16'>
-          <div className='ml-[70px] xs:ml-[30px] '>
+          <div className='ml-[4.375rem] xs:ml-[1.875rem] '>
             <div className='relative mt-[60px] w-[70px] h-[70px] rounded-full bg-[#22A75D] creatorShadow'><img src={creators} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' /></div>
             <h2 className='text-[#fff] mt-5  text-[36px] font-bold leading-[54px] xs:text-[28px]'>For <span className='text-[#22A75D] underline'>Creators</span></h2>
             <p className='mt-5 text-base font-normal leading-6 opacity-50  text-[#FFFFFF] w-[90%] font-[tokner] xs:w-[91%]'>Creators can gain independence through a decentralised digital currency system that is
@@ -62,10 +48,10 @@ function Dashboard() {
           </div>
         </div>
         <div className='bg-[#171B29] 2xl:w-[777px] 2xl:h-[436px] xl:w-[45%] sm:w-[80%] xl:h-auto ml-5 mt-[73px] xs:mt-[10px] xs:ml-0 rounded-[25px] 2xl:pb-0  lg:pb-10 sm:pb-16'>
-          <div className='ml-[70px] xs:ml-[30px]'>
+          <div className='ml-[4.375rem] xs:ml-[1.875rem]'>
             <div className='relative mt-[60px] w-[70px] h-[70px] rounded-full bg-[#2278D4] holderShadow'><img src={holderframe} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' /></div>
             <h2 className='text-[#fff] mt-5  text-[36px] font-bold leading-[54px] xs:text-[28px]'>For <span className='text-[#2278D4] underline'>Holders</span></h2>
-            <p className='mt-5 text-base font-normal leading-6 opacity-50  text-[#FFFFFF] w-[89%] font-[tokner] xs:w-[92%]'>Holding social tokens allows the individual to gain access to benefits including unreleased
+            <p className='mt-5 text-base font-normal leading-6 opacity-50  text-[#FFFFFF] w-[89.86%] font-[tokner] xs:w-[92%]'>Holding social tokens allows the individual to gain access to benefits including unreleased
               content, private communities, direct access to celebrity, early- access to tickets and more as well as the ability to trade with other communities in order to gain access to more creator content with early token buyers being the biggest winners as the value of the token increases with more buyers. .</p>
             <button className='text-[#2278D4] text-sm font-bold underline mt-5 xs:pb-[41px]'>Learn More <img src={blurarrow} alt="" className='inline-block ml-[6px]' /></button>
           </div>
@@ -97,7 +83,7 @@ function Dashboard() {
           <div>
             <div className='flex sm:mt-10 2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>
-                <img src={h1} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
+                <img src={historygreen} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
                 <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>Q1</h3>
               </div>
               <div className='ml-2 flex flex-col justify-end'>
@@ -115,7 +101,7 @@ function Dashboard() {
           <div className='ml-[31px] xs:ml-0 xs:mt-[42px]'>
             <div className='flex sm:mt-10 2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>
-                <img src={h2} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
+                <img src={historyblue} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
                 <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>Q2</h3>
               </div>
               <div className='ml-2 flex flex-col justify-end'>
@@ -136,7 +122,7 @@ function Dashboard() {
           <div className='ml-[24px] xs:ml-0 xs:mt-[42px]'>
             <div className='flex sm:mt-10 2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>
-                <img src={h3} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
+                <img src={historyyellow} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
                 <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>Q3</h3>
               </div>
               <div className='ml-2 flex flex-col justify-end'>
@@ -163,7 +149,7 @@ function Dashboard() {
           <div className='ml-[61px] xs:ml-0 xs:mt-[42px]'>
             <div className='flex sm:mt-10 2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>
-                <img src={h4} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
+                <img src={historyred} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
                 <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>Q4</h3>
               </div>
               <div className='ml-2 flex flex-col justify-end'>
@@ -228,146 +214,10 @@ function Dashboard() {
       </div>
 
       {/* section 6 PreSAle */}
-      <div className='bgpresale pb-[160px] lg:block sm:hidden xs:hidden'>
-        <div className='xl:mx-[173px] sm:mx-10 pt-[450px]'>
-          <h2 className='text-center text-[#fff] text-5xl font-bold leading-[54px]'>Presale Details</h2>
-          <div className='flex' >
-            <div className='relative w-[511px] h-[585px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px]'>
-                <img src={h1} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>01</h3>
-              </div>
-              <div className='mt-[63px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase One</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={one} alt="" className='absolute top-[97px]' />
-            </div>
-
-            <div className='relative w-[511px] h-[585px] mt-[80px] ml-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px]'>
-                <img src={h2} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>02</h3>
-              </div>
-              <div className='mt-[63px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase Two</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={two} alt="" className='absolute top-[97px]' />
-            </div>
-
-            <div className='relative w-[511px] h-[585px] mt-5 ml-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px]'>
-                <img src={h3} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>03</h3>
-              </div>
-              <div className='mt-[63px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase Three</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={three} alt="" className='absolute top-[97px]' />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Resposive Presale */}
-      <div className='bgpresaleiphone pb-[160px] sm:hidden '>
-      <h2 className='text-center text-[#fff] text-5xl font-bold leading-[54px] pt-[127px]'>Presale Details</h2>
-      <Swiper pagination={true} modules={[Pagination]} slidesPerView={1.1} spaceBetween={20}  pagination-top={350}  className="mySwiper  sm:block lg:!hidden mt-10">
-        <SwiperSlide className='min-h-[550px]'>
-        <div className='relative w-[335px] h-[445px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px] xs:mt-[90px]'>
-                <img src={h1} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>01</h3>
-              </div>
-              <div className='mt-[63px] xs:mt-[28px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase One</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] xs:mt-[4px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px] xs:mt-[40px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={one} alt="" className='absolute top-[97px]' />
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className='min-h-[550px]'>
-        <div className='relative w-[335px] h-[445px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px] xs:mt-[90px]'>
-                <img src={h2} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>02</h3>
-              </div>
-              <div className='mt-[63px] xs:mt-[28px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase Two</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] xs:mt-[4px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px] xs:mt-[40px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={two} alt="" className='absolute top-[97px]' />
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className='min-h-[550px]'>
-        <div className='relative w-[335px] h-[445px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
-              <div className='relative w-[82px] h-[82px] mt-[110px] xs:mt-[90px]'>
-                <img src={h3} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
-                <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>03</h3>
-              </div>
-              <div className='mt-[63px] xs:mt-[28px]'>
-                <h2 className='text-[32px] font-bold leading-[54px] text-[#191B21]'>Phase Three</h2>
-                <p className='text-base font-bold leading-5 text-[#191B21] mt-[9px] xs:mt-[4px] opacity-80'>0/04/2021 - 16/04/2021</p>
-              </div>
-              <div>
-                <p className='text-[#191B21] text-[20px] font-bold leading-5 opacity-80 mt-[70px] xs:mt-[40px]'>1 BNB = 100000 WNTR</p>
-                <p className='text-base font-normal leading-5 mt-5 text-[#191B21] font-[tokner]'>Soft cap: <span className='font-bold opacity-80 font-[toknerb]'> 5000 BNB</span></p>
-                <p className='text-base font-normal leading-5 mt-[10px] text-[#191B21] font-[tokner]'>Hard cap: <span className='font-bold opacity-80 font-[toknerb]'> 10000 BNB</span></p>
-              </div>
-              <img src={three} alt="" className='absolute top-[97px]' />
-            </div>
-        </SwiperSlide>
-      </Swiper>
-      </div>
+      <PreSale/>
       {/* section 7 */}
-
-      <div className='xl:mx-[173px] sm:mx-10 lg:mt-0 sm:mt-20 xs:mt-20'>
-        <h2 className='text-4xl font-bold leading-[54px] text-[#F7F5F9] text-center'>How to buy</h2>
-        <div className='flex lg:flex-nowrap sm:flex-wrap xs:flex-wrap sm:justify-center lg:justify-normal xs:mx-5'>
-          <div className='w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative mt-[50px] '>
-            <span className='text-xs font-bold leading-6 opacity-30 text-[#fff] ml-[30px] pt-[30px] block'>01</span>
-            <div className='flex flex-col justify-center items-center  text-lg font-bold leading-6 text-[#fff] mt-[45px] xs:mt-5 xs:text-base'><p className='w-[52%] xs:w-[70%]'>First Connect your Metamask or TrustWallet to the "Connect Wallet" on the Homepage.</p></div>
-            <div className='h-[86px] w-[86px] xs:w-[60px] xs:h-[60px] rounded-full bg-[#0F1320] flex justify-center items-center absolute lg:top-[43%] lg:left-[90%] sm:left-[50%] xs:left-[50%] sm:top-[100%] xs:top-[100%]  sm:-translate-x-2/4 xs:-translate-x-2/4 sm:-translate-y-2/4 xs:-translate-y-2/4 lg:transform-none z-50'><div><img src={cr} alt="" className='sm:rotate-90 xs:rotate-90 lg:rotate-0' /></div></div>
-          </div>
-
-          <div className='w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[110px] sm:mt-5 xs:mt-5'>
-            <span className='text-xs font-bold leading-6 opacity-30 text-[#fff] ml-[30px] pt-[30px] block'>02</span>
-            <div className='flex flex-col justify-center items-center  text-lg font-bold leading-6 text-[#fff] mt-[45px] xs:mt-5 xs:text-base'><p className='w-[50%] xs:w-[70%]'>Then send minimum of 0.1 BNB or maximum of 10 BNB to the Presale wallet</p></div>
-            <div className='h-[86px] w-[86px] xs:w-[60px] xs:h-[60px] rounded-full bg-[#0F1320] flex justify-center items-center absolute lg:top-[20%] lg:left-[90%] sm:left-[50%]  xs:left-[50%] sm:top-[100%] xs:top-[100%] sm:-translate-x-2/4 sm:-translate-y-2/4 xs:-translate-x-2/4 xs:-translate-y-2/4 lg:transform-none z-50'><div><img src={cr1} alt="" className='sm:rotate-90 xs:rotate-90 lg:rotate-0'/></div></div>
-          </div>
-          <div className='w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[50px] sm:mt-5 xs:mt-5'>
-            <span className='text-xs font-bold leading-6 opacity-30 text-[#fff] ml-[30px] pt-[30px] block'>03</span>
-            <div className='flex flex-col justify-center items-center  text-lg font-bold leading-6 text-[#fff] mt-[45px] xs:mt-5 xs:text-base'><p className='w-[50%] xs:w-[70%]'>Then after you will received your $WNTR to your address within 24hours. </p></div>
-          </div>
-        </div>
-      </div>
+      <HowToBuy/>
+      
 
     </>
   )

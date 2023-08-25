@@ -26,8 +26,8 @@ function Footer() {
         </div>
         <div className='xl:mx-[173px] lg:mx-20 mt-[129px] flex  lg:justify-between sm:flex-col xs:flex-col sm:items-center xs:items-center lg:flex-row'>
             <div><img src={logo} alt="" /></div>
-            <div className='flex sm:mt-10 lg:mt-0 xs:mt-[33px] xs:mx-4'>
-              <div className='w-[50px] h-[50px] opacity-5 stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={twitter} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+            <div className='flex sm:mt-10 lg:mt-0 xs:mt-[33px] xs:mx-4 '>
+              <div className='w-[50px] h-[50px] opacity-5 stroke-[2px] stroke-[#fff] rounded-full border-2  relative mr-[10px]'><img src={twitter} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
               <div className='w-[50px] h-[50px] opacity-5 stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={fb} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
               <div className='w-[50px] h-[50px] opacity-5 stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={insta} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
               <div className='w-[50px] h-[50px] opacity-5 stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={medium} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
