@@ -5,16 +5,18 @@ import historyyellow from '../../assests/images/historyyellow.svg'
 import one from '../../assests/images/01.svg'
 import two from '../../assests/images/02.svg'
 import three from '../../assests/images/03.svg'
+import '../../App.css'
 import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import {  FreeMode , Pagination } from 'swiper/modules';
 
 function PreSale() {
   return (
@@ -80,7 +82,7 @@ function PreSale() {
       {/* Mobile Resposive Presale */}
       <div className='bgpresaleiphone pb-[160px] sm:hidden '>
       <h2 className='text-center text-[#fff] text-5xl font-bold leading-[54px] pt-[127px]'>Presale Details</h2>
-      <Swiper pagination={true} modules={[Pagination]} slidesPerView={1.1} spaceBetween={20}  pagination-top={350}  className="mySwiper  sm:block lg:!hidden mt-10">
+      <Swiper pagination={true} modules={[FreeMode ,Pagination]} slidesPerView={1.13} spaceBetween={20} initialSlide={1} centeredSlides={true}   pagination-top={350} freeMode={false}   className="mySwiper customCenteredSlide  sm:block lg:!hidden mt-10">
         <SwiperSlide className='min-h-[550px]'>
         <div className='relative w-[335px] h-[445px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>
               <div className='relative w-[82px] h-[82px] mt-[110px] xs:mt-[90px]'>

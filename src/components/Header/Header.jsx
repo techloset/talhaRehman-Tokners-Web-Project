@@ -28,7 +28,7 @@ function Header() {
     {/*  */}
      {/* Mobile Navbar Only  */}
      <nav className="w-full bg-[#0F1320] lg:hidden">
-        <div className="justify-between px-5 mx-auto xs:mt-[50px] lg:max-w-7xl lg:items-center lg:flex lg:px-8">
+        <div className="justify-between px-5 mx-auto xs:mt-[38px] lg:max-w-7xl lg:items-center lg:flex lg:px-8">
           <div>
             <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
               <div className="logo lg:col-span-3 my-auto sm:col-span-6">

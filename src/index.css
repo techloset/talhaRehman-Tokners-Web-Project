@@ -74,5 +74,13 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+    .customCenteredSlide {
+        padding: 0 8px 0 0 !important; /* Adjust the margin as needed */
+      }
+    .colorfull{
+        background-image: url("/src/assests/images/colorfull.svg");
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
 }

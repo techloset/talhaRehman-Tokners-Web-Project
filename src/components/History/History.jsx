@@ -8,7 +8,7 @@ function History() {
   return (
    <> 
     <div className='mt-[203px] 2xl:ml-[173px] 2xl:mr-[188px] xs:ml-5 xs:mt-[70px] xs:overflow-x-hidden'>
-        <div className='flex sm:flex-wrap xs:flex-wrap sm:justify-center 2xl:justify-normal'>
+        <div className='flex sm:flex-wrap xs:flex-wrap sm:justify-center 2xl:justify-normal 2xl:flex-nowrap'>
           <div>
             <div className='flex sm:mt-10 2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>

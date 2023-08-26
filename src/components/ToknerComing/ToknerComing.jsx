@@ -11,7 +11,7 @@ function ToknerComing() {
     
     <div className='2xl:mx-[173px] xl:mx-10 lg:mx-12 mt-[189px] '>
         <div className='flex xl:flex-nowrap sm:flex-wrap xs:flex-wrap 2xl:justify-normal sm:justify-center '>
-          <div className='2xl:w-[644px] xl:w-[45%] sm:order-2 xs:order-2 xl:order-1'>
+          <div className='2xl:w-[644px] xl:w-[45%] sm:order-2 xs:order-2 xl:order-1 xs:mt-[70px]'>
             <div className='flex flex-nowrap xs:flex-wrap xl:justify-normal sm:justify-center xs:ml-5'>
               <img src={logoicom} alt="" className='sm:self-end xl:self-auto xs:hidden' />
               <img src={iphonecoming} alt="" className='hidden xs:block' />
@@ -30,12 +30,12 @@ function ToknerComing() {
                 Currency is digital, it has been that way for a while now, but this time there would be no dead presidents on the money, there would people like you on the money, and you would own it because it would make the most sense in the world.</p>
             </div>
             <div className='mt-5 xl:mx-0 xl:w-[100%] sm:w-[90%] sm:mx-auto xs:hidden '><button className='text-sm font-bold leading-normal text-[#fff] border-2 border-[#22A75D] rounded-[52px] w-[147px] h-12'>Read More</button></div>
-            <div className='hidden xs:block xs:mx-5'> <button className='text-lg font-bold text-[#22A75D] mt-1'>Read More</button></div>
+            <div className='hidden xs:block xs:mx-5'> <button className='text-lg font-bold text-[#22A75D] mt-1 border-[#22A75D] border-dotted border-b-2'>Read More</button></div>
 
           </div>
-          <div className=' relative sm:order-1 xs:order-1 xl:order-2'>
+          <div className=' relative sm:order-1 xs:order-1 xl:order-2 xs:mx-5'>
             <img src={womenHolding} alt="" className='' />
-            <div className='coming lg:w-[80%] lg:h-[82%] 2xl:w-[777px] 2xl:h-[900px] absolute top-[28px] left-[114px] -z-10'></div>
+            <div className='coming lg:w-[80%] lg:h-[82%] 2xl:w-[777px] 2xl:h-[900px] absolute top-[28px] left-[114px] -z-10 xs:w-[85%] xs:h-[97.8%] xs:left-[50px] xs:top-[10px]'></div>
           </div>
         </div>
       </div>
