@@ -24,15 +24,15 @@ function Footer() {
 
           </ul>
         </div>
-        <div className='xl:mx-[173px] lg:mx-20 mt-[129px] flex  lg:justify-between sm:flex-col xs:flex-col sm:items-center xs:items-center lg:flex-row'>
+        <div className='xl:mx-[173px] lg:mx-20 mt-[129px] xs:mt-0 flex  lg:justify-between sm:flex-col xs:flex-col  sm:items-center xs:items-center lg:flex-row'>
           <div><img src={logo} alt="" /></div>
-          <div className='flex sm:mt-10 lg:mt-0 xs:mt-[33px] xs:mx-4 '>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={twitter} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' /></div>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={fb} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={insta} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={medium} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={github} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
-            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px]'><img src={riddit} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+          <div className='flex sm:mt-10 lg:mt-0 xs:mt-[33px] xs:mx-4  xs:flex-wrap xs:justify-center '>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[8px] xs:mt-[10px]'><img src={twitter} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' /></div>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[8px] xs:mt-[10px]'><img src={fb} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[8px] xs:mt-[10px]'><img src={insta} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[8px] xs:mt-[10px]'><img src={medium} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[8px] xs:mt-[10px]'><img src={github} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
+            <div className='w-[50px] h-[50px] border-[rgba(255,255,255,0.05)]  stroke-[2px] stroke-[#fff] rounded-full border-2 relative mr-[10px] xs:mr-[0px] xs:mt-[10px]'><img src={riddit} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4' /></div>
           </div>
           <div className='sm:mt-10 lg:mt-0 xs:mt-[32px]'><p className='text-[#fff] text-sm font-bold leading-[22px] lg:text-right sm:text-center'>© 2021 Tokners. All rights reserved.</p>
             <p className='mt-[3px] lg:text-right sm:text-center xs:text-center'><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none" className='inline'>

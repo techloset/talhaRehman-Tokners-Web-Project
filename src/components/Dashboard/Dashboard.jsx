@@ -17,7 +17,7 @@ function Dashboard() {
           <p className='mt-[1.875rem] text-base font-normal leading-6 text-[#DDE2FF] opacity-60 w-[88%] font-[tokner] xs:mt-5 xs:text-sm xs:w-[97%] '>We are creating social media 3.0 with influencers, celebrities and creators being able to launch their own digital currency by simply creating a profile with media content posted as Non fungible Tokens that can be owned and traded on the Tknrs network</p>
           <button className='text-sm font-bold leading-normal text-[#fff] text-center bg-[#22A75D] rounded-[52px] w-[147px] h-[48px] mt-10 greenButtonShadow  xs:mt-[30px]'>Learn More</button>
         </div>
-        <div className='2xl:col-span-8 xl:col-span-6 lg:col-span-5 sm:col-span-12 xs:col-span-12 xl:-ml-36 xl:-mt-20 xs:!min-w-[100vw] xs:m-0 xs:p-0 '>
+        <div className='2xl:col-span-8 xl:col-span-6 lg:col-span-5 sm:col-span-12 xs:col-span-12 xl:-ml-36 xl:-mt-20 xs:!min-w-[100vw] xs:m-0 xs:p-0 overflow-hidden'>
           <img src={dashboard} alt="" className='xl:w-[100%] xs:w-[100vw] xs:overflow-hidden  xs:min-w-[100px]  xs:overflow-y-hidden xs:hidden' />
           <img src={iphonedashboard} alt=""  className='sm:hidden block overflow-hidden w-full '/>
         </div>
