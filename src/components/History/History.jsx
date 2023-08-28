@@ -28,7 +28,7 @@ function History() {
 
 
           <div className='ml-[31px] xs:ml-0 xs:mt-[42px]'>
-            <div className='flex sm:mt-10 2xl:mt-0'>
+            <div className='flex sm:mt-10  2xl:mt-0'>
               <div className='relative w-[82px] h-[82px]'>
                 <img src={historyblue} alt="" className='min-w-fit min-h-full absolute top-[66%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' />
                 <h3 className='absolute text-[#0F1320] text-[26px] font-bold leading-9 top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 '>Q2</h3>
@@ -59,7 +59,7 @@ function History() {
                 <p className='text-[#fff] text-lg font-bold leading-9'>2021</p>
               </div>
             </div>
-            <div className='mt-[39px] w-[338px]'>
+            <div className='mt-[45px] w-[338px]'>
               <div className='flex '>
                 <p><span className='text-xs font-bold leading-[34px] text-[#FFD100] mr-5 xs:mr-[10px]'>01</span> </p>
                 <p><span className='text-[#fff] text-lg font-normal leading-[20px] opacity-70 font-[tokner] '> Celebrity, Creator and Influencer partnerships</span></p>
