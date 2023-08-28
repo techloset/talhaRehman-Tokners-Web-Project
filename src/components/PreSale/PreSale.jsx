@@ -22,7 +22,7 @@ function PreSale() {
   return (
     <>
       <div className='bgpresale pb-[160px] lg:block sm:hidden xs:hidden'>
-        <div className='xl:mx-[173px] sm:mx-10 pt-[450px]'>
+        <div className='2xl:mx-[173px] sm:mx-10 pt-[450px]'>
           <h2 className='text-center text-[#fff] text-5xl font-bold leading-[54px]'>Presale Details</h2>
           <div className='flex' >
             <div className='relative w-[511px] h-[585px] mt-5 rounded-[25px] bg-[#ffffff] flex items-center flex-col text-center'>

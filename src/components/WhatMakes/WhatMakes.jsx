@@ -7,7 +7,7 @@ function WhatMakes() {
     <>
     <div className='mt-[120px] grid lg:grid-cols-2 sm:grid-cols-1'>
         <div className=' lg:inline sm:hidden lg:colorfull sm:rounded-tr-[150px] lg:rounded-tr-[400px]'><img src={colorfull} alt="" className='w-full xs:hidden sm:hidden 2xl:h-full' /> <img src={iphonecolor} alt="" className='hidden  xs:block min-w-full ' /></div>
-        <div className='bg-[#fff] lg:rounded-tl-[400px] sm:rounded-tr-[400px] xs:rounded-tr-[150px] lg:rounded-tr-none 2xl:pb-3 lg:pb-11 sm:pb-16'>
+        <div className='bg-[#fff] lg:rounded-tl-[400px] sm:rounded-tr-[400px] xs:rounded-tr-[150px] lg:rounded-tr-none 2xl:pb-[130px] lg:pb-11 sm:pb-16'>
           <div className='ml-[143px] xs:ml-5 mt-[296px] xs:mt-[70px]'>
             <h2 className='text-[48px] font-bold leading-[54px] text-[#0F1320] xs:text-4xl xs;leading-[40px] xs:w-[70%]'>What makes us different?</h2>
             <h3 className='mt-[30px] text-base font-bold left-5 opacity-60 text-[#0F1320] xs:text-sm'>We would only launch tokens with the express permission of the creators. </h3>
