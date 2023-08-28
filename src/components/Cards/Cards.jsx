@@ -7,8 +7,8 @@ import blurarrow from '../../assests/images/bluearrow-right-ic.svg'
 function Cards() {
   return (
     <> 
-     <div className='2xl:ml-[173px] flex sm:flex-wrap xs:flex-wrap xl:flex-nowrap 2xl:mt-0 sm:mt-20 xs:mx-5 2xl:justify-start sm:justify-center  '>
-        <div className='bg-[#171B29] 2xl:w-[777px] xl:w-[45%] 2xl:h-[436px] xl:h-auto rounded-[25px] sm:w-[80%] 2xl:pb-0 lg:pb-10 sm:pb-16'>
+     <div className='2xl:ml-[173px] flex sm:flex-wrap xs:flex-wrap xl:flex-nowrap 2xl:mt-0 sm:mt-20 xs:mx-5 2xl:justify-start sm:justify-center xs:mt-10 '>
+        <div className='bg-[#171B29] 2xl:w-[777px] xl:w-[45%] xl:h-[450px]  rounded-[25px] sm:w-[80%] 2xl:pb-0 lg:pb-10 sm:pb-16'>
           <div className='ml-[4.375rem] xs:ml-[1.875rem] '>
             <div className='relative mt-[60px] w-[70px] h-[70px] rounded-full bg-[#22A75D] creatorShadow'><img src={creators} alt="" className='absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 ' /></div>
             <h2 className='text-[#fff] mt-5  text-[36px] font-bold leading-[54px] xs:text-[28px]'>For <span className='text-[#22A75D] underline'>Creators</span></h2>
